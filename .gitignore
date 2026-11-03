@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Generated data and results (rebuild with get_pages.py / make_dataset.py)
+pages/
+dataset/
+fonts/
+output/
+runs/
+check.jpg
+*.zip
+
+# CEDAR signatures are third-party data: download them separately
+signatures/
+
+# Local tool settings
+.claude/
+.vscode/
